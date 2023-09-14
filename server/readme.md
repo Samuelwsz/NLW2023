@@ -13,3 +13,11 @@ pnpm prisma migrate dev
 pnpm prisma studio
 
 pnpm i @fastify/multipart
+
+pnpm i zod
+
+pnpm i openai
+
+pnpm i dotenv -D
+
+pnpm i @fastify/cors
