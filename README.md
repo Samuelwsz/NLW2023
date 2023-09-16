@@ -12,4 +12,6 @@ pnpm i @ffmpeg/ffmpeg @ffmpeg/util
 
 pnpm i axios
 
+pnpm i ai
+
 react query(pesquisar sobre)

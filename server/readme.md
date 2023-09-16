@@ -23,3 +23,5 @@ pnpm i dotenv -D
 pnpm i @fastify/cors
 
 pnpm i ai
+
+pnpm prisma db seed

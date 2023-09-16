@@ -41,7 +41,7 @@ Content-Type: application/json
 {
   "videoId": "e0361521-80b6-4250-af4d-fb351b5834b2",
   "temperature": 0.5,
-  "template": "resuma esse audio: '''{transcription}'''"
+  "prompt": "resuma esse audio: '''{transcription}'''"
 }
 
 
