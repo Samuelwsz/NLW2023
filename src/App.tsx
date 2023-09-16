@@ -12,8 +12,13 @@ import {
 } from "./components/ui/select"
 import { Slider } from "./components/ui/slider"
 import { VideoInputForm } from "./components/video-input-form"
+import { PromptSelect } from "./components/prompt-select"
 
 function App() {
+  function handlePromptSelected(template: string) {
+    console.log(template)
+  }
+
   return (
     <>
       <div className="min-h-screen flex flex-col">
@@ -63,15 +68,7 @@ function App() {
             <form className="space-y-6">
               <div className="space-y-2">
                 <Label>Prompt</Label>
-                <Select>
-                  <SelectTrigger>
-                    <SelectValue placeholder="Selecione um papel..." />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="gpt3.5">GPT 3.5-turbo 16k</SelectItem>
-                    <SelectItem value="gpt3.6">GPT 3.5-turbo</SelectItem>
-                  </SelectContent>
-                </Select>
+                <PromptSelect onPromptSelected={handlePromptSelected}/>
               </div>
 
               <div className="space-y-2">
