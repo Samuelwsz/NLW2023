@@ -21,3 +21,5 @@ pnpm i openai
 pnpm i dotenv -D
 
 pnpm i @fastify/cors
+
+pnpm i ai
