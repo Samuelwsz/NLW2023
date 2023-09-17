@@ -17,6 +17,7 @@ pnpm i @fastify/multipart
 pnpm i zod
 
 pnpm i openai
+OPENAI_KEY(arquivo .env)
 
 pnpm i dotenv -D
 
